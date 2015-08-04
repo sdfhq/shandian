@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="startups">
+	<div class="container startup">
+		<div class="normal-box startup-header">
+
+			<div class="col-md-3 startup-cover">
+		        <img src="{{ page.cover }}"/>
+			</div>
+
+			<div class="col-md-9 startup-info">
+				<div class="title">{{ page.title }}</div>
+	        	<div class="desc">{{ page.desc }}</div>
+	        	<div class="addr">{{ page.addr }}</div>
+			</div>
+
+		</div>
+
+		<div class="row startup-main">
+			<div class="col-md-8">
+				<div class="normal-box intro">
+					<div class="box-title"><h2>项目介绍</h2></div>
+					<article>{{ content }}</article>
+				</div>
+			</div>
+  			<div class="col-md-4">
+  				<div class="normal-box team">
+					<div class="box-title"><h2>融资情况</h2></div>
+					<p>{{ page.invest }}</p>
+				</div>
+				<div class="normal-box team">
+					<div class="box-title"><h2>核心团队</h2></div>
+					<ul>
+					{% for member in page.team %}
+						<li class="member">
+						  <div class="member-avatar">
+						  	<img src="{{ member.avatar }}"/>
+						  </div>
+						  <span class="member-body">
+						  	<p class="member-name">{{ member.name }}</p>
+							<p class="member-position">{{ member.position }}</p>
+							<p class="member-desc">{{ member.desc }}</p>
+						  </span>
+						</li>
+					{% endfor %}
+					</ul>
+				</div>
+  			</div>
+		</div>
+	</div>
+</div>
+
+

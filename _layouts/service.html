@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% if page.url == '/service/' %}
+  {% include banner.html %}
+{% endif %}
+
+<div class="container page">
+
+  <div class="row">
+  	<div class="col-md-3 left-column">
+      <div class="normal-box">
+    		<ul>
+          <li class="{% if page.url == '/service/' %}active{% endif %}">
+            <a href="/service/">申请孵化</a>
+          </li>
+          <li class="{% if page.url contains '/service/activity' %}active{% endif %}">
+            <a href="/service/activity">闪孵活动</a>
+          </li>
+          <li class="{% if page.url contains '/service/course' %}active{% endif %}">
+            <a href="/service/course">创业课程</a>
+          </li>
+        </ul>
+      </div>
+  	</div>
+  	<div class="col-md-9 left-divider right-column">
+	  	{% if page.url != '/service/' %}
+        <h1 class="title">{{ page.title }}</h1>
+      {% endif %}
+      <article class="post-content">
+	    	{{ content }}
+	  	</article>
+  	</div>
+  </div>
+
+</div>

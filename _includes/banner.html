@@ -1,0 +1,10 @@
+{% if page.header != null %}
+	<div class="banner">
+	  <div class="container">
+	      <h2 style="color: #fff;">{{ page.header }}</h2>
+	      {% if page.secondary != null %}
+	      	<p style="color: #fff; font-size: 18px;">{{ page.secondary }}</p>
+	      {% endif %}
+	  </div>
+	</div>
+{% endif %}

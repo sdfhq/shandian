@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include banner.html %}
+
+<div class="startups">
+	<div class="container">
+		<ul class="startup-list">
+		  {% for item in site.startup %}
+		    <li>
+		      <div class="item">
+		        <div class="item-cover">
+		          <a href="{{ item.url }}">
+		          	<img src="{{ item.cover }}"/>
+		          </a>
+		        </div>
+		        <div class="item-body">
+		          <h3>
+		            <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+		          </h3>
+		          <p>{{ item.desc }}</p>
+		        </div>
+		      </div>
+		    </li>
+		  {% endfor %}
+		</ul>
+	</div>
+</div>

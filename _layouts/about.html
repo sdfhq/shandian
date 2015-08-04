@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% include banner.html %}
+
+<div class="container page">
+
+  <div class="row">
+  	<div class="col-md-3 left-column">
+  		
+      <div class="normal-box">
+        <ul>
+          <li class="{% if page.url == '/about/' %}active{% endif %}">
+            <a href="/about/">关于闪孵</a>
+          </li>
+          <li class="{% if page.url contains '/about/members' %}active{% endif %}">
+            <a href="/about/members">闪孵团队</a>
+          </li>
+          <li class="{% if page.url contains '/about/cooperators' %}active{% endif %}">
+            <a href="/about/cooperators">合作伙伴</a>
+          </li>
+        </ul>
+      </div>
+
+  	</div>
+
+  	<div class="col-md-9 left-divider right-column">
+	  	<article class="post-content">
+	    	{{ content }}
+	  	</article>
+  	</div>
+  </div>
+
+</div>
