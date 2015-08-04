@@ -47,6 +47,10 @@ a {
         font-size: 24px;
         font-weight: 700;
         color: #555;
+
+        img {
+            margin-top: 12px;
+        }
     }
 
     .navbar-nav {
@@ -83,9 +87,8 @@ a {
     .navbar-nav {
         .active{
             a {
-                background-color: transparent;
-                border-bottom: 2px solid #27ae60;
-                margin-bottom: -1px;
+                background-color: #f6f6f6;
+                
                 font-weight: 700;
             }
         }
@@ -145,6 +148,12 @@ img {
         color: #aaaaaa;
         font-size: 18px;
         border: 1px solid #aaaaaa;
+
+        &:hover {
+            background-color: rgb(39, 174, 96);
+            border-color: #27ae60;
+            color: white;
+        }
     }
 }
 
@@ -179,7 +188,7 @@ img {
             background-color: #fff;
             border-radius: 2px;
             box-shadow: 0 0 3px #e1e1e1;
-            color: #999;
+            color: #888;
             overflow: hidden;
 
             .item-cover {
@@ -531,6 +540,9 @@ article {
                 margin-bottom: 10px;
                 a {
                     color: #333;
+                    i {
+                        margin-right: 6px;
+                    }
                 }
                 &.active {
                     border-left: 2px solid #27ae60;

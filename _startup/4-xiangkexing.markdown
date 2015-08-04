@@ -2,7 +2,7 @@
 layout: startup
 title:  "象客行"
 date:   2015-08-01 10:05:17
-cover:	http://shandian.in/wp-content/uploads/2013/11/%E6%85%95%E5%A3%B02-600400-600x400.jpg
+cover:	http://yczim.qiniudn.com/test/lvyou.jpeg
 desc:	一个面向出境自助游的P2P“当地人”导游平台。
 addr:	陕西, 西安
 invest:	天使轮

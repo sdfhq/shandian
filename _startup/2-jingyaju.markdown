@@ -2,7 +2,7 @@
 layout: startup
 title:  "静雅居"
 date:   2015-08-01 13:05:17
-cover:	http://shandian.in/wp-content/uploads/2013/11/%E6%85%95%E5%A3%B02-600400-600x400.jpg
+cover:	http://yczim.qiniudn.com/test/hongmu.jpeg
 desc:	一个红木家具O2O平台
 addr:	陕西, 西安
 invest:	天使轮

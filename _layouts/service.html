@@ -13,13 +13,22 @@ layout: default
       <div class="normal-box">
     		<ul>
           <li class="{% if page.url == '/service/' %}active{% endif %}">
-            <a href="/service/">申请孵化</a>
+            <a href="/service/">
+              <i class="fa fa-bookmark"></i>
+              申请孵化
+            </a>
           </li>
           <li class="{% if page.url contains '/service/activity' %}active{% endif %}">
-            <a href="/service/activity">闪孵活动</a>
+            <a href="/service/activity">
+              <i class="fa fa-calendar"></i>
+              闪孵活动
+            </a>
           </li>
           <li class="{% if page.url contains '/service/course' %}active{% endif %}">
-            <a href="/service/course">创业课程</a>
+            <a href="/service/course">
+              <i class="fa fa-book"></i>
+              创业课程
+            </a>
           </li>
         </ul>
       </div>
