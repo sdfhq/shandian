@@ -768,8 +768,8 @@ table {
                         display: none;
                     }
                 }
-                &:hover {
-                    background: #f3f3f3;
+                &:hover a {
+                    color: #27ae60;
                 }
             }
         }
@@ -785,6 +785,15 @@ table {
         float: none; 
         li {
             margin-left: 0;
+            a {
+                &:hover {
+                    border-color: transparent;
+                    background: #f3f3f3;
+                }
+            }
+            &.active a {
+                border-color: transparent;
+            }
         }
     }
     .startup-list {
