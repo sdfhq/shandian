@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="startups">
-	<div class="container startup">
-		<div class="normal-box startup-header">
+	<div class="container startup page" style="padding-top: 20px">
+		<div class="cbox startup-header">
 
 			<div class="col-md-3 startup-cover">
 		        <img src="{{ page.cover | prepend: site.qiniu_upload }}"/>
@@ -20,11 +20,11 @@ layout: default
 
 		<div class="row startup-main">
 			<div class="col-md-8">
-				<div class="normal-box intro">
+				<div class="cbox title-box intro">
 					<div class="box-title"><h2>项目介绍</h2></div>
 					<article>{{ content }}</article>
 				</div>
-				<div class="normal-box intro intro-progress">
+				<div class="cbox title-box intro startup-progress">
 					<div class="box-title"><h2>项目进展</h2></div>
 					<article>
 						<ul>
@@ -40,11 +40,11 @@ layout: default
 				</div>
 			</div>
   			<div class="col-md-4">
-  				<div class="normal-box team">
+  				<div class="cbox title-box team">
 					<div class="box-title"><h2>融资情况</h2></div>
 					<p>{{ page.invest }}</p>
 				</div>
-				<div class="normal-box team">
+				<div class="cbox title-box team">
 					<div class="box-title"><h2>核心团队</h2></div>
 					<ul>
 					{% for member in page.team %}

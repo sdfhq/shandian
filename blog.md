@@ -6,7 +6,7 @@ permalink: /blog/
 header: 2013-2015，见证闪孵的成长
 ---
 
-<div class="normal-box ">
+<div class="cbox title-box">
 	<div class="box-title">
 		<h2>
 			文章列表

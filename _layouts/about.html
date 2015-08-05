@@ -7,9 +7,8 @@ layout: default
 <div class="container page">
 
   <div class="row">
-  	<div class="col-md-3 left-column">
-  		
-      <div class="normal-box">
+  	<div class="col-md-3 sidebar">
+      <div class="cbox">
         <ul>
           <li class="{% if page.url == '/about/' %}active{% endif %}">
             <a href="/about/">
@@ -27,7 +26,7 @@ layout: default
 
   	</div>
 
-  	<div class="col-md-9 left-divider right-column">
+  	<div class="col-md-9 left-divider main-content">
 	  	<article class="post-content">
 	    	{{ content }}
 	  	</article>

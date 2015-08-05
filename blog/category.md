@@ -7,7 +7,7 @@ header: 2013-2015，见证闪孵的成长
 ---
 
 {% for tag in site.categories %} 
-  <div class="normal-box" id="{{ tag[0] }}">
+  <div class="cbox" id="{{ tag[0] }}">
 	<div class="box-title">
 		<h2>{{ tag[0] | capitalize }}</h2>
     </div>
