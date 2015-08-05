@@ -9,6 +9,7 @@ url: "http://sd.ycz.im" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: /blog/:year/:month/:day/:title/
+qiniu: http://7xkw3c.com1.z0.glb.clouddn.com/
 
 # Build settings
 markdown: kramdown
