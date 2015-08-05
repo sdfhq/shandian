@@ -5,5 +5,27 @@ layout: default
 {% include banner.html %}
 
 <div class="container page">
-	{{ content }}
+	<div class="row">
+	  <div class="col-md-8 post-list">
+	  	{{ content }}
+	  </div>
+
+	  <div class="col-md-4">
+	  	<div class="normal-box posts-category">
+	  		<div class="box-title">
+	  			<h2>分类</h2>
+	  		</div>
+
+	  		<ul>
+		  		{% for category in site.categories %}
+		  			<li>
+		  				<a href="/blog/category/#{{ category | first }}">
+						{{ category | first }}
+						</a>
+					</li>
+				{% endfor%}
+			</ul>
+	  	</div>
+	  </div>
+	</div>
 </div>

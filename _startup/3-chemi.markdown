@@ -2,17 +2,17 @@
 layout: startup
 title:  "车秘"
 date:   2015-08-01 12:05:17
-cover:	http://shandian.in/wp-content/uploads/2014/09/1.png
+cover:	chemi.png
 desc:	一个专注于汽车后市场服务的互联网平台
 addr:	陕西, 西安
 invest:	天使轮
 team:	
   - name: "赵欧伦"
-    avatar: http://drava.blahlab.com/images/@stock/member-1.jpg
+    avatar: member.jpg
     position: "创始人 CEO"
     desc: RelayRides, Citi, Berkeley
   - name: "李国兴"
-    avatar: http://drava.blahlab.com/images/@stock/member-1.jpg
+    avatar: member.jpg
     position: "创始人 CTO"
     desc: 斯坦福计算机硕士15'
 ---

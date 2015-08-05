@@ -1,0 +1,25 @@
+---
+layout: blog-list
+title: 文章归档
+permalink: /blog/category/
+
+header: 2013-2015，见证闪孵的成长
+---
+
+{% for tag in site.categories %} 
+  <div class="normal-box" id="{{ tag[0] }}">
+	<div class="box-title">
+		<h2>{{ tag[0] | capitalize }}</h2>
+    </div>
+    <ul class="">
+    	{% assign pages_list = tag[1] %} 
+	  	{% for post in pages_list %}
+			<li class="">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+				<span class="publish-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+			</li>
+	  	{% endfor %}
+	  	{% assign pages_list = nil %}
+	</ul>
+  </div>
+{% endfor %}

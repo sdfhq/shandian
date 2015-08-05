@@ -7,7 +7,7 @@ header: 一家服务于早期科技创业项目的专业孵化器
 secondary: 聚焦于移动互联网及智能硬件领域
 ---
 
-![](http://shandian.in/wp-content/uploads/2015/04/shandian-logo1.png)
+![](http://7xkw3c.com1.z0.glb.clouddn.com/upload/shandian-logo.png)
 
 
 **闪电孵化器** 创办于2013年10月，起步于高校，目前已发展为全体系的创业孵化机构，涵盖创业教育、创业孵化、创业投资三大服务版块。2015年，与陕西省科技厅、陕西省科技资源统筹中心合作共建「陕西众创空间」。

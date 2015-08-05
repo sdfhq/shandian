@@ -3,12 +3,10 @@ layout: post
 title:  在 Android 中使用 Realm 替代 SQLite
 date:   2015-08-02 14:05:17
 author:	tinyao
-categories: jekyll update
-summary: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
- 
+categories: [其他]
 ---
 
-[Realm](https://realm.io) 是最近兴起的一个专注于移动设备数据库的库，它可以用来取代 SQLite 和其他一些小型数据库，因为其核心是使用C++编写，所以数据的存取速度比 SQLite 要快很多，同时避开了 SQL 相对繁琐的语句编写。最近在一款小App里使用了 Realm，总体来说，性能优秀，但由于 Realm 过于 Framework，以至于灵活性比较差，你会觉得很多地方被限制了。
+[Realm](https://realm.io) 是最近兴起的一个专注于移动设备数据库的库，它可以用来取代 SQLite 和其他一些小型数据库，因为其核心是使用 C++ 编写，所以数据的存取速度比 SQLite 要快很多，同时避开了 SQL 相对繁琐的语句编写。最近在一款小 App 里使用了 Realm，总体来说，性能优秀，但由于 Realm 过于 Framework，以至于灵活性比较差，你会觉得很多地方被限制了。
 
 <!-- more --> 
 

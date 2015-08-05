@@ -5,7 +5,7 @@ layout: default
 <div class="banner">
   <div class="container">
       <h2 style="color: #fff;">{{ page.title }}</h2>
-      <p style="color: #fff; font-size: 18px;">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <p style="color: #fff; font-size: 18px;">{% if page.author %}{{ page.author }} • {% endif %}{{ page.date | date: "%Y-%m-%d" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </div>
 </div>
 

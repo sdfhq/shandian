@@ -7,7 +7,7 @@ layout: default
 		<div class="normal-box startup-header">
 
 			<div class="col-md-3 startup-cover">
-		        <img src="{{ page.cover }}"/>
+		        <img src="{{ page.cover | prepend: site.qiniu_upload }}"/>
 			</div>
 
 			<div class="col-md-9 startup-info">
@@ -36,7 +36,7 @@ layout: default
 					{% for member in page.team %}
 						<li class="member">
 						  <div class="member-avatar">
-						  	<img src="{{ member.avatar }}"/>
+						  	<img src="{{ member.avatar | prepend: site.qiniu_upload}}"/>
 						  </div>
 						  <span class="member-body">
 						  	<p class="member-name">{{ member.name }}</p>

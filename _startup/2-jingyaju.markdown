@@ -2,17 +2,17 @@
 layout: startup
 title:  "静雅居"
 date:   2015-08-01 13:05:17
-cover:	http://yczim.qiniudn.com/test/hongmu.jpeg
+cover:	hongmu.jpeg
 desc:	一个红木家具O2O平台
 addr:	陕西, 西安
 invest:	天使轮
 team:	
   - name: "赵欧伦"
-    avatar: http://drava.blahlab.com/images/@stock/member-1.jpg
+    avatar: member.jpg
     position: "创始人 CEO"
     desc: RelayRides, Citi, Berkeley
   - name: "李国兴"
-    avatar: http://drava.blahlab.com/images/@stock/member-1.jpg
+    avatar: member.jpg
     position: "创始人 CTO"
     desc: 斯坦福计算机硕士15'
 ---

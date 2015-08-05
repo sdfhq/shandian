@@ -3,9 +3,7 @@ layout: post
 title:  "[译] 在 Material Design 中表现品牌性"
 date:   2015-08-01 14:05:17
 author:	tinyao
-categories: jekyll
-summary: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
- 
+categories: [其他]
 ---
 
 ![](http://yczim.qiniudn.com/assets/images/0_article_banner.png)

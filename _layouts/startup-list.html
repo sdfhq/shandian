@@ -12,7 +12,7 @@ layout: default
 		      <div class="item">
 		        <div class="item-cover">
 		          <a href="{{ item.url }}">
-		          	<img src="{{ item.cover }}"/>
+		          	<img src="{{ item.cover | prepend: site.qiniu_upload }}"/>
 		          </a>
 		        </div>
 		        <div class="item-body">

@@ -3,7 +3,7 @@
     <li>
       <div class="member">
         <div class="member-avatar">
-            <img src="{{ member.avatar }}"/>
+            <img src="{{ member.avatar | prepend: site.qiniu_upload }}"/>
         </div>
         <div class="member-body">
           <h3>{{ member.name }}</h3>
