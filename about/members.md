@@ -10,15 +10,15 @@ members:
   - name: 李晋
     email: lijin.paul@gmail.com
     wechat: pauljinli
-    avatar: http://yczim.qiniudn.com/test/member-1.jpg
+    avatar: member.jpg
   - name: 谢飞
     email: 471702768@qq.com
     wechat: pipidad
-    avatar: http://yczim.qiniudn.com/test/member-1.jpg
+    avatar: member.jpg
   - name: 何川
     email: 5515630@qq.com
     wechat: oscarwin
-    avatar: http://yczim.qiniudn.com/test/member-1.jpg
+    avatar: member.jpg
 
 ---
 
