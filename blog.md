@@ -16,8 +16,8 @@ header: 2013-2015，见证闪孵的成长
 	<ul class="">
 	  	{% for post in site.posts %}
 			<li class="">
-				<a href="{{ post.url }}">{{ post.title }}</a>
 				<span class="publish-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+				<a href="{{ post.url }}">{{ post.title }}</a>
 			</li>
 	  	{% endfor %}
 	</ul>

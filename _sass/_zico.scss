@@ -15,6 +15,9 @@ body {
 
 a {
     color: #27ae60;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     &:hover {
         color: #27ae60;
     }
@@ -148,6 +151,7 @@ img {
         color: #aaaaaa;
         font-size: 18px;
         border: 1px solid #aaaaaa;
+        display: inline-block;
 
         &:hover {
             background-color: rgb(39, 174, 96);
@@ -175,6 +179,10 @@ img {
     background: #f7f7f7;
     margin-bottom: -60px;
     padding-bottom: 60px;
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 .startup-list {
@@ -261,7 +269,7 @@ img {
     .startup-cover {
         display: block;
         overflow: hidden;
-        margin-left: -15px;
+        padding: 0;
         height: 150px;
         img {
             min-width: 100%;
@@ -294,6 +302,15 @@ img {
                 margin-bottom: 16px;
             }
         }
+        .intro-progress {
+            ul li {
+                line-height: 2;
+                span {
+                    float: left;
+                    width: 120px;
+                }
+            } 
+        }
         .team {
             padding-bottom: 8px;
             ul {
@@ -306,7 +323,7 @@ img {
                         padding-right: 20px; 
                         .member-avatar {
                             float: left;
-                            padding-left: 12px;
+                            padding-right: 12px;
                             img {
                                 border-radius: 2px;
                                 width: 80px;
@@ -375,20 +392,30 @@ img {
 }
 
 .post-list {
+    .normal-box {
+        padding-bottom: 5px;
+    }
     ul {
         list-style: none;
         padding-left: 0px;
         margin-bottom: 0;
         li {
             font-size: 16px;
-            line-height: 36px;
+            margin-bottom: 15px;
             a {
                 color: #333;
+                display: inherit;
+                line-height: 1.6;
+                &:hover {
+                    color: #27ae60;
+                }
             }
             .publish-date {
                 float: right;
                 font-size: 14px;
                 color: #666;
+                line-height: 1.6;
+                margin-left: 10px;
             }
         }
     }
@@ -452,7 +479,7 @@ article {
     }
 
     h2 {
-        border-bottom: 2px solid #27ae60;
+        border-bottom: 2px solid #333;
         padding-bottom: 5px;
         display: inline-block;
     }
@@ -577,18 +604,6 @@ table {
 
 
 @media screen and (max-width: 992px) {
-    .navbar .navbar-nav {
-        float: none;
-        li {
-            margin-left: 0;
-            a {
-                line-height: 55px;
-            }
-            &.active a {
-                border-color: transparent;
-            }
-        }
-    }
     .startup-list {
         li {
             width: 50%;
@@ -643,6 +658,12 @@ table {
 }
 
 @media screen and (max-width: 768px) {
+    .navbar .navbar-nav {
+        float: none; 
+        li {
+            margin-left: 0;
+        }
+    }
     .startup-list {
         li {
             width: 100%;

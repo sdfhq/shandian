@@ -24,6 +24,20 @@ layout: default
 					<div class="box-title"><h2>项目介绍</h2></div>
 					<article>{{ content }}</article>
 				</div>
+				<div class="normal-box intro intro-progress">
+					<div class="box-title"><h2>项目进展</h2></div>
+					<article>
+						<ul>
+							{% for pitem in page.progress %}
+							<li class="row">
+								<div class="col-md-2">{{ pitem.date }}</div>
+								<div class="col-md-10">{{ pitem.desc }}</div>
+								
+							</li>
+							{% endfor %}
+						</ul>
+					</article>
+				</div>
 			</div>
   			<div class="col-md-4">
   				<div class="normal-box team">
