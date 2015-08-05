@@ -65,6 +65,8 @@ a {
                 line-height: 60px; 
                 height: 60px;
                 font-size: 16px;
+                border-bottom: 2px solid transparent;
+
                 &:hover {
                     border-bottom: 2px solid #27ae60;
                 }
@@ -82,6 +84,7 @@ a {
 }
 
 .navbar-default {
+    border: none;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     box-sizing: content-box;
     .navbar-nav {
@@ -90,6 +93,9 @@ a {
                 border-bottom: 2px solid #27ae60;
                 background: transparent;
                 font-weight: 700;
+                &:hover {
+                    background: transparent;
+                }
             }
         }
         .focus {
@@ -452,7 +458,7 @@ img {
 /***  Post ***/
 
 .page {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .post-list {
@@ -800,6 +806,7 @@ table {
         }
     }
     .page {
+        padding-top: 20px;
         .cbox {
             margin-left: -15px;
             margin-right: -15px;
