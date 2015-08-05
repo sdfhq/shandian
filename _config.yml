@@ -10,13 +10,18 @@ twitter_username: jekyllrb
 github_username:  jekyll
 permalink: /blog/:year/:month/:day/:title/
 
-qiniu: http://7xkw3c.com1.z0.glb.clouddn.com
-qiniu_upload: http://7xkw3c.com1.z0.glb.clouddn.com/upload/
-
-
 # Build settings
 markdown: kramdown
 
+
+# 样式资源主地址
+qiniu: 
+# UGC资源地址
+qiniu_upload: http://7xkw3c.com1.z0.glb.clouddn.com/upload/
+
+# 站点信息
+slogan: 致力于早期科技创业孵化
+qrcode: qrcode.jpg
 
 collections:
   startup:

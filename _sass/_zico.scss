@@ -14,10 +14,7 @@ body {
 }
 
 a {
-    color: #27ae60;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+    color: #333;
     &:hover {
         color: #27ae60;
     }
@@ -108,12 +105,69 @@ a {
 }
 
 .site-footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: 60px;
     color: #767676;
-    text-align: center;
+    font-size: 14px;
     border-top: 1px solid #e5e5e5;
+
+    .qrcode {
+        text-align: center;
+        img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .social {
+        position: absolute;
+        right: 0;
+        top: 0;
+        a {
+            color: #fff;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            border-radius: 50%;
+            background: #888888;
+            margin-left: 10px;
+            font-size: 15px;
+            line-height: 30px;
+            text-align: center;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+
+            &.fa-weixin img {
+                display: none;
+            }
+
+            &.fa-weixin:hover {
+                background: #44b549;
+                img {
+                    display: block;
+                    width: 120px;
+                    position: absolute;
+                    left: -35px;
+                    bottom: 40px;
+                }
+            }
+            &.fa-weibo:hover {
+                background: #E46F6C;
+            }
+            &.fa-envelope:hover {
+                background: #47a6d9;
+            }
+            &.fa-rss:hover {
+                background: #e9640e;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -388,7 +442,7 @@ img {
 /***  Post ***/
 
 .page {
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .post-list {
@@ -513,7 +567,7 @@ article {
 
 
 .left-divider {
-    border-left: 1px solid #eee;
+    
     padding-left: 30px;
 }
 
@@ -527,6 +581,11 @@ article {
 /** Service **/
 
 .page {
+    a {
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
     .right-column {
         h1.title {
             font-size: 24px;
@@ -560,8 +619,10 @@ article {
     }
     .left-column {
         .normal-box {
-            background: #fafafa;
             padding: 15px 0px;
+            border: none;
+            border-top: 1px solid #f1f1f1;
+            border-bottom: 1px solid #f1f1f1;
         }
         ul {
             padding: 0 !important;
@@ -569,16 +630,30 @@ article {
                 line-height: 30px;
                 padding-left: 18px;
                 a {
-                    color: #333;
                     display: block;
                     line-height: 50px;
                     i {
-                        margin-right: 10px;
+                        width: 30px;
+                        &.right-arrow {
+                            display: none;
+                            float: right;
+                            margin: 0 auto;
+                            line-height: 50px;
+                            margin-right: 20px;
+                            font-size: 14px;
+                        }
                     }
                 }
                 &.active {
                     a {
-                        color: #27ae60;
+                        font-weight: bold;
+                        &:hover {
+                            color: #333;
+                        }
+                        i.right-arrow {
+                            display: inline;
+                            color: #27ae60;
+                        }
                     }
                 }
             }
@@ -682,6 +757,13 @@ table {
             font-size: 16px;
         }
     }
+    .site-footer {
+        text-align: center;
+        .social {
+            position: relative;
+            margin-bottom: 20px;
+        }
+    }
 }
 
 
@@ -700,4 +782,12 @@ table {
             fill: rgb(130, 130, 130);
         }
     }
+}
+
+
+/** jinshuju **/
+
+.jinshuju {
+    border: 1px solid #eee;
+    padding: 20px;
 }

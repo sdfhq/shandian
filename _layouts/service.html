@@ -14,29 +14,28 @@ layout: default
     		<ul>
           <li class="{% if page.url == '/service/' %}active{% endif %}">
             <a href="/service/">
-              <i class="fa fa-bookmark"></i>
-              申请孵化
+              <i class="fa fa-bookmark"></i>服务内容<i class="fa fa-chevron-right right-arrow"></i>
+            </a>
+          </li>
+          <li class="{% if page.url contains '/service/apply' %}active{% endif %}">
+            <a href="/service/apply">
+              <i class="fa fa-bookmark"></i>申请孵化<i class="fa fa-chevron-right right-arrow"></i>
             </a>
           </li>
           <li class="{% if page.url contains '/service/activity' %}active{% endif %}">
             <a href="/service/activity">
-              <i class="fa fa-calendar"></i>
-              闪孵活动
+              <i class="fa fa-calendar"></i>闪孵活动<i class="fa fa-chevron-right right-arrow"></i>
             </a>
           </li>
           <li class="{% if page.url contains '/service/course' %}active{% endif %}">
             <a href="/service/course">
-              <i class="fa fa-book"></i>
-              创业课程
+              <i class="fa fa-book"></i>创业课程<i class="fa fa-chevron-right right-arrow"></i>
             </a>
           </li>
         </ul>
       </div>
   	</div>
   	<div class="col-md-9 left-divider right-column">
-	  	{% if page.url != '/service/' %}
-        <h1 class="title">{{ page.title }}</h1>
-      {% endif %}
       <article class="post-content">
 	    	{{ content }}
 	  	</article>
