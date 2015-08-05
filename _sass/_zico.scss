@@ -534,25 +534,22 @@ article {
     .left-column {
         .normal-box {
             background: #fafafa;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding: 15px 0px;
         }
         ul {
             padding: 0 !important;
             li {
                 line-height: 30px;
-                margin-top: 10px;
-                margin-bottom: 10px;
+                padding-left: 18px;
                 a {
                     color: #333;
+                    display: block;
+                    line-height: 50px;
                     i {
-                        margin-right: 6px;
+                        margin-right: 10px;
                     }
                 }
                 &.active {
-                    border-left: 2px solid #27ae60;
-                    padding-left: 18px;
-                    margin-left: -20px;
                     a {
                         color: #27ae60;
                     }
