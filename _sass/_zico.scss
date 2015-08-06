@@ -228,7 +228,7 @@ img {
     text-align: center;
     background-size: cover;
     width:100%;
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
 
     p {
@@ -819,6 +819,11 @@ table {
         }
         p {
             font-size: 16px;
+        }
+    }
+    .index-banner {
+        .slogan {
+            font-size: 28px;
         }
     }
     .page {
