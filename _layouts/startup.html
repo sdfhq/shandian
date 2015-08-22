@@ -32,7 +32,6 @@ layout: default
 							<li class="row">
 								<div class="col-md-2">{{ pitem.date }}</div>
 								<div class="col-md-10">{{ pitem.desc }}</div>
-								
 							</li>
 							{% endfor %}
 						</ul>
@@ -49,10 +48,12 @@ layout: default
 					<ul>
 					{% for member in page.team %}
 						<li class="member">
-						  <div class="member-avatar">
-						  	<img src="{{ member.avatar | prepend: site.qiniu_upload}}"/>
-						  </div>
-						  <span class="member-body">
+						  {% if member.avatar %}
+						  	<div class="member-avatar">
+						  		<img src="{{ member.avatar | prepend: site.qiniu_upload}}"/>
+						  	</div>
+						  {% endif %}
+						  <span class="member-body {% unless member.avatar %} full {% endunless %}">
 						  	<p class="member-name">{{ member.name }}</p>
 							<p class="member-position">{{ member.position }}</p>
 							<p class="member-desc">{{ member.desc }}</p>
@@ -60,6 +61,10 @@ layout: default
 						</li>
 					{% endfor %}
 					</ul>
+				</div>
+				<div class="cbox title-box team">
+					<div class="box-title"><h2>联系方式</h2></div>
+					<p>{{ page.contact }}</p>
 				</div>
   			</div>
 		</div>

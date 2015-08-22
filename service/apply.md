@@ -20,8 +20,3 @@ permalink: /service/apply/
 
 > 流程：比较灵活，线上交流、电话沟通、面谈等。
 
-## 申请孵化
-
-<div class="jinshuju">
-	<script src='https://jinshuju.net/f/hexi2S/embedded.js?banner=show&background=white&height=1697'></script>
-</div>

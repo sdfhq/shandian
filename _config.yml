@@ -15,7 +15,7 @@ markdown: kramdown
 
 
 # 样式资源主地址
-qiniu: http://7xkw3c.com1.z0.glb.clouddn.com/
+qiniu: /
 # UGC资源地址
 qiniu_upload: http://7xkw3c.com1.z0.glb.clouddn.com/upload/
 

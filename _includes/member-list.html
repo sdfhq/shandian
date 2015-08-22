@@ -3,7 +3,9 @@
     <li>
       <div class="member">
         <div class="member-avatar">
-            <img src="{{ member.avatar | prepend: site.qiniu_upload }}"/>
+            {% if member.avatar %}
+              <img src="{{ member.avatar | prepend: site.qiniu_upload }}"/>
+            {% endif %}
         </div>
         <div class="member-body">
           <h3>{{ member.name }}</h3>
