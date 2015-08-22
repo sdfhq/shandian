@@ -17,26 +17,26 @@ categories:
 
 本次创业训练营是闪电孵化器管理团队的首次尝试，也积累了很多经验，相信未来质量会不断提升，成为国内有特色的面向早期团队的创业训练营。
 
-![]({{ site.qiniu_upload }}/2014/08/无标题1.png)
+![]({{ site.qiniu_upload }}2014/08/无标题1.png)
 
 开营仪式
 
-![]({{ site.qiniu_upload }}/2014/08/无标题2.png)
+![]({{ site.qiniu_upload }}2014/08/无标题2.png)
 
 知识讲解
     
-![]({{ site.qiniu_upload }}/2014/08/无标题3.png)
+![]({{ site.qiniu_upload }}2014/08/无标题3.png)
 
 分享讨论
       
-![]({{ site.qiniu_upload }}/2014/08/无标题4.png)
+![]({{ site.qiniu_upload }}2014/08/无标题4.png)
 
 慕声定制耳机创业团队分享
 
-![]({{ site.qiniu_upload }}/2014/08/无标题5.png)          
+![]({{ site.qiniu_upload }}2014/08/无标题5.png)          
 
 闪电孵化器联合发起人李晋与冯林颁发结业证书
 
-![]({{ site.qiniu_upload }}/2014/08/无标题6.png)              
+![]({{ site.qiniu_upload }}2014/08/无标题6.png)              
 
 闭营合影

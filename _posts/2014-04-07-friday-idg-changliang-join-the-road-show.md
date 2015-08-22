@@ -15,7 +15,7 @@ categories:
 ---
 
 
-![]({{ site.qiniu_upload }}/2014/04/IMG_8210.jpg)
+![]({{ site.qiniu_upload }}2014/04/IMG_8210.jpg)
 
 周五活动-IDG常亮来校参加项目内部路演总结
     

@@ -12,7 +12,7 @@ tags:
   - 闪电孵化器，李晋
 ---
 
-![]({{ site.qiniu_upload }}/2014/11/0.jpg)
+![]({{ site.qiniu_upload }}2014/11/0.jpg)
 
 各位来宾，各位朋友：
 
@@ -65,7 +65,7 @@ tags:
 刚才解释了我们这一年做孵化的3大块内容，也是通过摸索得出的三级火箭模式。
 
 
-![]({{ site.qiniu_upload }}/2014/11/l.jpg)
+![]({{ site.qiniu_upload }}2014/11/l.jpg)
 
 &nbsp;
 

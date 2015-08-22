@@ -12,7 +12,7 @@ categories:
 ---
 
 
-![]({{ site.qiniu_upload }}/2014/10/QQ图片20141027205119.jpg)
+![]({{ site.qiniu_upload }}2014/10/QQ图片20141027205119.jpg)
   
 <div id="page-content">
       <div id="img-content">
@@ -142,7 +142,7 @@ categories:
           </p>
           
           <p>
-            <a href="{{ site.qiniu_upload }}/2014/10/QQ图片20141028163952.png"><img class="alignnone wp-image-3949" src="{{ site.qiniu_upload }}/2014/10/QQ图片20141028163952.png" alt="QQ图片20141028163952" width="720" height="541" /></a>
+            <a href="{{ site.qiniu_upload }}2014/10/QQ图片20141028163952.png"><img class="alignnone wp-image-3949" src="{{ site.qiniu_upload }}2014/10/QQ图片20141028163952.png" alt="QQ图片20141028163952" width="720" height="541" /></a>
           </p>
           
           <p>
@@ -246,7 +246,7 @@ categories:
           </p>
           
           <p>
-            <a href="{{ site.qiniu_upload }}/2014/10/QQ图片20141027205033.jpg"><img class="alignnone wp-image-3947" src="{{ site.qiniu_upload }}/2014/10/QQ图片20141027205033.jpg" alt="QQ图片20141027205033" width="720" height="542" /></a>
+            <a href="{{ site.qiniu_upload }}2014/10/QQ图片20141027205033.jpg"><img class="alignnone wp-image-3947" src="{{ site.qiniu_upload }}2014/10/QQ图片20141027205033.jpg" alt="QQ图片20141027205033" width="720" height="542" /></a>
           </p>
           
           <p>
