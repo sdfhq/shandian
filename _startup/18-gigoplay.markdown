@@ -6,7 +6,9 @@ cover:	gigo.jpg
 desc:	针对3-6岁儿童的益智类游戏系列产品
 addr:	陕西, 西安
 invest:	
-team:	
+team:
+
+archive: true	
 ---
 
 Gigo Play是一个针对3-6岁儿童的益智类游戏系列产品。产品面向全球市场，将推出多语言版本。

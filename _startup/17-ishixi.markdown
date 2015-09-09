@@ -1,6 +1,7 @@
 ---
 layout: startup
 title:  "i实习"
+archive: true
 date:   2015-08-01 14:05:17
 cover:	i实习.jpg
 desc:	在校大学生实习的信息平台及社区

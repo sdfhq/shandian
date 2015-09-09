@@ -5,6 +5,7 @@ permalink: /service/
 
 header: 一家服务于早期科技创业项目的专业孵化器
 secondary: 聚焦于移动互联网及智能硬件领域
+cover: shandian-service.jpg
 ---
 
 工作内容分为三个版块：创业孵化、创业教育、创业投资

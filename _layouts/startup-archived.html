@@ -7,7 +7,15 @@ layout: default
 <div class="startups">
 	<div class="container">
 		<ul class="startup-list">
-		  {% for item in site.startup %}
+		  <li>
+		  	<a href="/startup/">
+			  	<div class="item go-archive" style="height: 274px;">
+			  		<h4 style="margin-top: 122px">< 查看当前孵化项目</h4>
+			  	</div>
+		  	</a>
+		  </li>
+		  {% assign results = site.startup | where:"archive", true %}
+		  {% for item in results %}
 		    <li>
 		      <div class="item">
 		        <div class="item-cover">
@@ -24,13 +32,7 @@ layout: default
 		      </div>
 		    </li>
 		  {% endfor %}
-		  <li>
-		  	<a href="/startup-archived/">
-			  	<div class="item go-archive" style="height: 274px;">
-			  		<h4 style="margin-top: 122px">查看归档项目</h4>
-			  	</div>
-		  	</a>
-		  </li>
+		  
 		</ul>
 
 	</div>

@@ -1,6 +1,7 @@
 ---
 layout: startup
 title:  "智能防盗器"
+archive: true
 date:   2015-08-01 14:05:17
 cover:	智能防盗器.jpg
 desc:	新兴箱包防盗智能硬件设备

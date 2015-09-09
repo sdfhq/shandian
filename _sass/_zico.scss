@@ -18,6 +18,9 @@ a {
     &:hover {
         color: #0F793C;
     }
+    -webkit-transition: color .3s linear;
+    -moz-transition: color .3s linear;
+    transition: color .3s linear;
 }
 
 .navbar{
@@ -205,27 +208,31 @@ img {
     }
     .slogan-info {
         margin-top: 40px;
-        border-radius: 100px;
-        padding: 10px 60px;
-        background: transparent;
-        color: #aaaaaa;
-        font-size: 18px;
-        border: 1px solid #aaaaaa;
-        display: inline-block;
-
-        &:hover {
-            background-color: rgb(39, 174, 96);
-            border-color: #27ae60;
-            color: white;
-        }
     }
+}
+
+.btn-round {
+    border-radius: 100px;
+    padding: 10px 60px;
+    background: transparent;
+    color: #aaaaaa;
+    font-size: 18px;
+    border: 1px solid #aaaaaa;
+    display: inline-block;
+
+    &:hover {
+        background-color: rgb(39, 174, 96);
+        border-color: #27ae60;
+        color: white;
+    }
+}
+
+.center {
+    text-align: center;
 }
 
 .banner {
     background: #333;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
     background-size: cover;
     width:100%;
     background-position: center;
@@ -234,13 +241,20 @@ img {
     p {
         font-size: 18px;
     }
+
+    .banner-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: rgba(54,61,77,.9);
+        text-align: center;
+    }
 }
 
 
 /**  Startup  **/
 
 .startups {
-    background: #f7f7f7;
+    background: #f0f2f7;
     margin-bottom: -60px;
     padding-bottom: 60px;
 }
@@ -262,6 +276,12 @@ img {
             box-shadow: 0 0 3px #e1e1e1;
             color: #888;
             overflow: hidden;
+
+
+            &.go-archive{
+                height: 274px;
+                text-align: center;
+            }
 
             .item-cover {
                 position: relative;
@@ -417,7 +437,6 @@ img {
 }
 
 .cbox {
-    border: 1px solid #f3f3f3;
     background: #fff;
     margin-bottom: 20px;
     overflow: hidden;
@@ -528,6 +547,12 @@ img {
         padding-bottom: 30px;
     }
 
+}
+
+.post-page {
+    .cbox {
+        border: 1px solid #f3f3f3;
+    }
 }
 
 
@@ -898,8 +923,149 @@ table {
     margin: 30px 0;
 }
 
-.home-service {
-    background: #aaa;
-    padding: 30px 0;
+.sec {
+    .sectitle {
+        text-align: center;
+        margin-bottom: 55px;
+    }   
+}
+
+.sec {
+
+    &.service {
+        background: #f0f2f7;
+        padding: 40px 0;
+
+        .service-collums {
+
+        }
+
+        .item {
+            text-align: center;
+
+            .cbox {
+                height: 270px;
+                padding: 40px 30px 30px 30px;
+                border-radius: 4px;
+                overflow: hidden;
+                
+                h4 {
+                    font-size: 18px;
+                    margin: 15px 0px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 1.8;
+                }
+            }
+        }
+
+        .service {
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            overflow: hidden;
+            display: inline-block;
+            
+            &.incubator {
+                background: #55A3DA url("/assets/img/service-incubate.png") center center no-repeat;
+            }
+            &.education {
+                background: #DCA559 url("/assets/img/service-education.png") center center no-repeat;
+            }
+            &.invest {
+                background: #E06596 url("/assets/img/service-invest.png") center center no-repeat;
+            }
+        }
+    }
+
+    &.feature-startups {
+        background: #fff;
+        padding: 40px 20px;
+
+        .startup-list {
+            margin-top: -10px;
+        }
+
+        .item {
+            background-color: #fff;
+            border-radius: 2px;
+            color: #888;
+            border: 1px solid #eee;
+            box-shadow: none;
+            overflow: hidden;
+
+            .item-cover {
+                position: relative;
+                display: block;
+                overflow: hidden;
+                height: 150px;
+                img {
+                    width: 100%;
+                    min-height: 150px;
+                      -moz-transform: scale(1);
+                      -ms-transform: scale(1);
+                      -webkit-transform: scale(1);
+                      transform: scale(1);
+                      -moz-transition-duration: 0.5s;
+                      -o-transition-duration: 0.5s;
+                      -webkit-transition-duration: 0.5s;
+                      transition-duration: 0.5s;
+                    
+                }
+                &:hover {
+                    img {
+                          -moz-transform: scale(1.1);
+                          -ms-transform: scale(1.1);
+                          -webkit-transform: scale(1.1);
+                          transform: scale(1.1);
+                          -moz-transition-duration: 0.5s;
+                          -o-transition-duration: 0.5s;
+                          -webkit-transition-duration: 0.5s;
+                          transition-duration: 0.5s;
+                    }
+                }
+            }
+            
+
+            .item-body {
+                padding: 25px;
+                position: relative;
+                text-align: center;
+                h3 {
+                    margin: 0px;
+                    font-size: 18px;
+                    a {
+                       color: #333;
+                       &:hover {
+                            color: #666;
+                       } 
+                    }
+                }
+                p {
+                    margin-top: 15px;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    &.ending {
+        padding-top: 60px;
+        .go-detail {
+            border: 1px solid #27ae60;
+            margin-top: 20px;
+            color: #27ae60;
+            &:hover {
+                color: #fff;
+            }
+        }
+        .epilogue {
+            font-size: 18px;
+        }
+    }
 }
 

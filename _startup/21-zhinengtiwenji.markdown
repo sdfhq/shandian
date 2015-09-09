@@ -1,6 +1,7 @@
 ---
 layout: startup
 title:  "可穿戴无线智能体温计"
+arcihve: true
 date:   2015-08-01 14:05:17
 cover:	智能体温计.jpg
 desc:	24小时幼儿体温监测智能体温计

@@ -4,6 +4,7 @@ title: 新闻动态
 permalink: /blog/
 
 header: 2013-2015，见证闪孵的成长
+cover: shandian-blog.jpg
 ---
 
 <div class="cbox title-box">
