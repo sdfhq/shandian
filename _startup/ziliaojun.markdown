@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "资料君"
-date:   2015-08-01 14:05:17
+date:   2015-04-01 14:05:17
 cover:	资料君.jpg
 desc:	一个本地化高校内容共享平台
 addr:	陕西, 西安

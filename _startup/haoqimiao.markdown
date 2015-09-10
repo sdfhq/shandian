@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "好奇喵"
-date:   2015-08-01 14:05:17
+date:   2015-03-01 14:05:17
 cover:	好奇喵.jpg
 desc:	一个爱卖萌的问答APP
 addr:	陕西, 西安

@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "婚脉"
-date:   2015-08-01 14:05:17
+date:   2014-03-01 14:05:17
 cover:	婚脉.jpg
 desc:	婚庆服务有效整合
 addr:	陕西, 西安

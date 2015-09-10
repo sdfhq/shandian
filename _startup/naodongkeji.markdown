@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  脑洞科技
-date:   2015-08-01 14:05:17
+date:   2015-03-02 14:05:17
 cover:	脑洞科技.jpg
 desc:	打造新一代的儿童玩具体验
 addr:	陕西, 西安

@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "妙趣剪纸"
-date:   2015-08-01 14:05:17
+date:   2013-11-10 14:05:17
 cover:	papercut.jpg
 desc:	一款简单有趣且中国味十足的剪纸应用
 addr:	陕西, 西安

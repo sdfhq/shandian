@@ -2,8 +2,8 @@
 layout: startup
 title:  "智能防盗器"
 archive: true
-date:   2015-08-01 14:05:17
-cover:	智能防盗器.jpg
+date:   2014-12-04 14:05:17
+cover:	智能防盗箱.jpg
 desc:	新兴箱包防盗智能硬件设备
 addr:	陕西, 西安
 invest:	

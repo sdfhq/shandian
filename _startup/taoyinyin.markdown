@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "淘印印"
-date:   2015-08-01 14:05:17
+date:   2014-10-01 14:05:17
 cover:	淘印印.jpg
 desc:	一个校园云打印及资料共享平台
 addr:	陕西, 西安

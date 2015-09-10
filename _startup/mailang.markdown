@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "麦浪"
-date:   2015-08-01 14:05:17
+date:   2014-12-01 14:05:17
 cover:	麦浪.jpg
 desc:	一个充满趣味的互联网音频平台
 addr:	陕西, 西安

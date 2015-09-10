@@ -6,6 +6,10 @@ permalink: /service/activity/
 
 注：所有相关资料（除视频）均可从网盘下载 链接: [http://pan.baidu.com/s/1qW17NuW](http://pan.baidu.com/s/1qW17NuW) 提取密码: ivp6
 
+## 创业训练营
+
+[专题：2014年暑期 创业训练营](/service/activity/startup-training-2014/)
+
 ## 创业微论坛系列活动
 
 本系列活动是一个小型讨论沙龙，希望为创业者提供一个线下交流平台。

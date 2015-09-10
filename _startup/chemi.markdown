@@ -2,7 +2,7 @@
 layout: startup
 title:  "车秘"
 archive: true
-date:   2015-08-01 12:05:17
+date:   2014-05-01 12:05:17
 cover:	chemi.png
 desc:	一个专注于汽车后市场服务的互联网平台
 addr:	陕西, 西安

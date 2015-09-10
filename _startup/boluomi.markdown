@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "菠萝蜜"
-date:   2015-08-01 14:05:17
+date:   2015-02-01 14:05:17
 cover:	菠萝蜜.jpg
 desc:	针对大学生的P2P小额贷款购物的服务平台
 addr:	陕西, 西安

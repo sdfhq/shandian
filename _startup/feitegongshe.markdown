@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "菲特公社"
-date:   2015-08-01 14:05:17
+date:   2015-02-03 14:05:17
 cover:	菲特公社.jpg
 desc:	一个O2O互动社交健身平台
 addr:	陕西, 西安

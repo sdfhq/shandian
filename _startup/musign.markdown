@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "慕声定制耳机"
-date:   2015-08-01 14:05:17
+date:   2013-11-01 14:05:17
 cover:	musign.jpg
 desc:	专注于高保真音质定制耳机研发
 addr:	陕西, 西安

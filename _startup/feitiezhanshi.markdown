@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "废铁战士"
-date:   2015-08-01 14:05:17
+date:   2014-09-05 14:05:17
 cover:	废铁战士.jpg
 desc:	二手数码产品的专业资讯与交易平台
 addr:	陕西, 西安

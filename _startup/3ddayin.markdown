@@ -1,7 +1,7 @@
 ---
 layout: startup
 title:  "3D打印兴趣小组"
-date:   2015-08-01 14:05:17
+date:   2013-12-01 14:05:17
 cover:	3pigs.jpg
 desc:	专注于高保围绕3D打印主题
 addr:	陕西, 西安
