@@ -19,11 +19,11 @@ qiniu: /
 # UGC资源地址
 qiniu_upload: http://7xkw3c.com1.z0.glb.clouddn.com/upload/
 
-home_startups: 
+home_startups:
+  - 卓越三维 
+  - 海导科技
   - 慕声定制耳机
-  - 车秘
-  - 美乐送
-  - 丁子科技
+  - 拓奇科技
 
 # 站点信息
 slogan: 致力于早期科技创业孵化
