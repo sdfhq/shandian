@@ -1,9 +1,3 @@
----
-layout: about
-title: 使用指南
-permalink: /readme/
----
-
 # shandian
 
 闪电孵化器新官网 DEMO - Powered by Jekyll 
